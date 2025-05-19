@@ -5,8 +5,8 @@ Exercícios da disciplina de **Projeto e Análise de Algoritmos 2**, feitos na l
 ## Exercícios:
 
 ### GreedAlgorithm
-- **[Exercício 1 - Change.c](https://github.com/Belialw/PAA2/blob/main/GreedAlgorithm/Change.c)**
-- **[Exercício 2 - FractionalKnapsack.c](https://github.com/Belialw/PAA2/blob/main/GreedAlgorithm/FractionalKnapsack.c)**
+- **[Exercício 1 - coinChange.c](https://github.com/Belialw/PAA2/blob/main/GreedAlgorithm/coinChange.c)**
+- **[Exercício 2 - fractionalKnapsack.c](https://github.com/Belialw/PAA2/blob/main/GreedAlgorithm/fractionalKnapsack.c)**
 - **[Exercício 3 - localMail.c](https://github.com/Belialw/PAA2/blob/main/GreedAlgorithm/localMail.c)**
 - **[Exercício 4 - selecaoAtividade.c](https://github.com/Belialw/PAA2/blob/main/GreedAlgorithm/selecaoAtividade.c)**
 

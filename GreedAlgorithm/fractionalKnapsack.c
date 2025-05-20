@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 typedef struct {
     double weight;
     double value;
@@ -17,7 +16,14 @@ int compare(const void *a, const void *b) {
     return 0;
 }
 
-int knapsack(Item items[], int capacity, int n) {
+int knapsack(double value[], double weight[], int capacity, int n) {
+    Item items[n];
+    for (int i = 0; i < n; i++) {
+        items[i].value = value[i];
+        items[i].weight = weight[i];
+        items[i].ratio = value[i] / weight[i];
+    }
+    
     qsort(items, n, sizeof(Item), compare);
 
     double totalValue = 0.0;
@@ -41,13 +47,6 @@ int main() {
     double capacity = 50.0;
     int n = sizeof(val) / sizeof(val[0]);
 
-    Item items[n];
-    for (int i = 0; i < n; i++) {
-        items[i].value = val[i];
-        items[i].weight = wt[i];
-        items[i].ratio = val[i] / wt[i];
-    }
-
-    double maxValue = knapsack(items, capacity, n);
+    double maxValue = knapsack(val, wt, capacity, n);
     printf("%.2f", maxValue);
 }

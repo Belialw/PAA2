@@ -1,3 +1,11 @@
+/*
+
+    Exercício 15 - Semana 12 -> (CORTE DAS HASTES DE AÇO) Dada uma haste de tamanho n e uma tabela de preços pi
+    para i = 1, 2, · · · , n, escreva um algoritmo que determine a receita máxima rn obtida pelo
+    corte de uma haste de aço e pela subsequente venda de suas partes. Escreva uma versão recursiva (backtracking), 
+    versão de programação dinâmica (top-down) e uma versão bottom-up.
+*/
+
 #include <stdio.h>
 
 int cutRodRecursive(int price[], int n) {

@@ -13,3 +13,6 @@ Exercícios da disciplina de **Projeto e Análise de Algoritmos 2**, feitos na l
 ### DynamicProgramming
 - **[Exercício 1 - fatorial.c](https://github.com/Belialw/PAA2/blob/main/DynamicProgramming/fatorial.c)**
 - **[Exercício 2 - fibonacci.c](https://github.com/Belialw/PAA2/blob/main/DynamicProgramming/fibonacci.c)**
+- **[Exercício 3 - coinChangeBottomUp.c](https://github.com/Belialw/PAA2/blob/main/DynamicProgramming/coinChangeBottomUp.c)**
+- **[Exercício 4 - cutRod.c](https://github.com/Belialw/PAA2/blob/main/DynamicProgramming/cutRod.c)**
+- **[Exercício 5 - longestIncreasingSequence.c](https://github.com/Belialw/PAA2/blob/main/DynamicProgramming/longestIncreasingSequence.c)**
